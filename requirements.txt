@@ -1,0 +1,13 @@
+# 本地依赖清单
+
+# HTTP 客户端（唯一的第三方依赖；无 requests 也能跑，见 run.py 说明）
+requests>=2.31.0
+
+# 说明：
+# 本项目刻意不引入 openai / langchain / llama-index 等 SDK，
+# 目的有三：
+#   1. 证明「本地 LLM Agent」不需要任何云端 SDK 或 API Key
+#   2. 降低复现门槛：pip install 一个包即可，不会因为依赖冲突卡住
+#   3. 让每一次 HTTP 请求都是可见的、可审计的 —— 数据确实没出本机
+#
+# 地图渲染不需要 Python 侧的库，直接产出 HTML（腾讯地图 GL JS）。

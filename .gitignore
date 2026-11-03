@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# --- Test / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Project outputs (regenerated on every run) ---
+# Root-anchored on purpose: examples/map_data.json and examples/map.html are
+# committed fixtures and must NOT be ignored.
+/map.html
+/map_data.json
+/logs/
+/output/
+
+# --- Secrets ---
+.env
+*.key
+!*.md
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Local scratch ---
+*.local.md
