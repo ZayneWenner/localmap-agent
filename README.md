@@ -11,6 +11,19 @@ No API key. No cloud inference. No monthly fee. Everything runs on `127.0.0.1`.
 
 ---
 
+## 提交物（EduSeed C5 交付物）
+
+| 平台要求 | 仓库内文件 |
+|---|---|
+| README.md | `README.md`（本文件） |
+| repo 链接 | [`贾静文_C5_repo链接.md`](./贾静文_C5_repo链接.md) |
+| AI 日志 | [`贾静文_C5_AI日志.md`](./贾静文_C5_AI日志.md)（英文版 `AI_LOG.md`） |
+| 拿来说明 | [`贾静文_C5_拿来说明.md`](./贾静文_C5_拿来说明.md)（英文版 `ATTRIBUTION.md`） |
+
+> 四类交付物均位于仓库根目录，可直接点击查看。
+
+---
+
 ## What problem does this solve?
 
 Most "LLM agent" demos have a dirty secret: the model runs on someone else's
