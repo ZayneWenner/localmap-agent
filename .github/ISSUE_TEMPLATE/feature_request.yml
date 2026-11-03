@@ -1,0 +1,51 @@
+name: Feature request
+description: Suggest a tool, a capability, or an improvement.
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve
+      description: Describe the situation you are in, not just the feature.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you propose
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the project
+      options:
+        - geo_tools / validation / coordinates
+        - agent loop / prompting
+        - renderer / map appearance
+        - ollama_client / model support
+        - memory
+        - docs
+        - tests / CI
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints
+      options:
+        - label: This does not require adding heavy dependencies (no langchain / cloud SDK)
+        - label: This does not require an API key or cloud inference
+        - label: I am willing to implement it

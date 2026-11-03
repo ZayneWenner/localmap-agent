@@ -1,0 +1,77 @@
+name: Bug report
+description: Something does not work as documented.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    value: |
+      Thanks for reporting. The most useful thing you can attach is
+      `logs/agent_run_log.json` from the failing run — it contains every tool
+      call and every rejection.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you observe?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ollama serve
+        2. python run.py "..."
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Paste the run log or the traceback.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: model
+    attributes:
+      label: Model tag
+      placeholder: gemma4:e2b
+    validations:
+      required: false
+
+  - type: input
+    id: ollama
+    attributes:
+      label: Ollama version
+      placeholder: "0.40.0"
+    validations:
+      required: false
+
+  - type: input
+    id: env
+    attributes:
+      label: OS and Python version
+      placeholder: "Windows 10, Python 3.13"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I ran `python run.py --probe` and it passed (or I cannot run Ollama at all)
+        - label: I searched existing issues

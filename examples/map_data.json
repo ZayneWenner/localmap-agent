@@ -1,0 +1,81 @@
+{
+  "title": "郑州西亚斯学院周边地图",
+  "view": {
+    "lat": 34.402844,
+    "lng": 113.759351,
+    "zoom": 10
+  },
+  "center_reference": {
+    "lat": 34.402844,
+    "lng": 113.759351
+  },
+  "marker_count": 6,
+  "markers": [
+    {
+      "id": 1,
+      "name": "郑州西亚斯学院",
+      "name_zh": "郑州西亚斯学院",
+      "latitude": 34.402844,
+      "longitude": 113.759351,
+      "description": "新生到达后，带你熟悉校园路线，参加各项迎新活动，并在食堂和图书馆开启精彩的学习生活。",
+      "category": "campus",
+      "source": "model",
+      "distance_km": 0.0
+    },
+    {
+      "id": 2,
+      "name": "郑州火车站",
+      "name_zh": "郑州火车站",
+      "latitude": 34.747607,
+      "longitude": 113.649278,
+      "description": "乘坐火车抵达郑州火车站后，可以前往西亚斯学院，办理入住，熟悉校园环境，探索学习设施，并体验校园生活。",
+      "category": "transport",
+      "source": "model",
+      "distance_km": 39.64
+    },
+    {
+      "id": 3,
+      "name": "黄帝故里",
+      "name_zh": "黄帝故里",
+      "latitude": 34.55,
+      "longitude": 113.65,
+      "description": "这是一个保存了古代文化遗迹的地点，学生们可以在这里参观历史遗址，了解传统文化的演变。",
+      "category": "culture",
+      "source": "model",
+      "distance_km": 19.19
+    },
+    {
+      "id": 4,
+      "name": "郑州市人民公园",
+      "name_zh": "郑州人民公园",
+      "latitude": 34.761497,
+      "longitude": 113.65822,
+      "description": "这是市民和学生放松身心、散步休憩的地方。公园内有绿地和设施供人休闲活动。",
+      "category": "nature",
+      "source": "model",
+      "distance_km": 40.94
+    },
+    {
+      "id": 5,
+      "name": "丰巢美食街",
+      "name_zh": "丰巢美食街",
+      "latitude": 34.5,
+      "longitude": 113.6,
+      "description": "来到丰巢美食街，你可以坐着逛，边走边品尝各种特色小吃，感受热情的城市氛围。（坐标为模型估算）",
+      "category": "food",
+      "source": "model",
+      "distance_km": 18.17
+    },
+    {
+      "id": 6,
+      "name": "Zhengzhou Supermall",
+      "name_zh": "郑州大商城",
+      "latitude": 34.5,
+      "longitude": 113.75,
+      "description": "这是一个大型商业综合体，学生可以在这里购买各种商品和食品。它提供了多种购物选择和餐饮场所。",
+      "category": "shopping",
+      "source": "model",
+      "distance_km": 10.84
+    }
+  ]
+}
